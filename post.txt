@@ -1,0 +1,4 @@
+curl http://localhost:3000/chat `
+>>   -Method Post `
+>>   -Headers @{ "Content-Type" = "application/json" } `
+>>   -Body '{"message":"Hola","userId":"victor"}'
