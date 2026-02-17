@@ -1,0 +1,19 @@
+# Mac / Linux
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -U pip
+pip install numpy pandas scikit-learn matplotlib joblib jupyter
+
+pip install tensorflow numpy
+
+# Mac Silicon
+pip install tensorflow-macos                              
+pip install tensorflow-metal
+
+# Windows
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -U pip
+pip install numpy pandas scikit-learn matplotlib joblib jupyter
+
+c
